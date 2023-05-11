@@ -1,0 +1,41 @@
+.date {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 40px;
+  margin-left: 48px;
+  max-width: 115px;
+  width: 100%;
+  
+  svg {
+    fill: #ADBFDF;
+    cursor: pointer;
+
+    &:hover {
+      fill: #002CFB;
+    }
+  }
+
+  .calendar {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+    span {
+      color: rgba(0, 95, 248, 1);
+      margin-left: 8px;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 16px;
+    }
+
+    &:hover {
+      color: rgba(0, 44, 251, 1);
+      svg {
+        fill: #002CFB;
+      }
+    }
+  }
+}

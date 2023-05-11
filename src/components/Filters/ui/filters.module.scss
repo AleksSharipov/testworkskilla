@@ -1,0 +1,53 @@
+.filters {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  color: #5E7793;
+
+  .search {
+    display: flex;
+    align-items: center;
+    height: 48px;
+    max-width: 482px;
+    width: 100%;
+  }
+
+  span {
+    margin-left: 12px;
+  }
+}
+
+.filterList {
+  margin-left: auto;
+  ul {
+    display: flex;
+    flex-direction: row;
+    li {
+      list-style: none;
+      margin-left: 36px;
+      cursor: pointer;
+
+      &:hover {
+        color: #002CFB;
+
+        svg {
+          fill: #002CFB;
+        }
+      }
+
+      svg {
+        margin-left: 8px;
+        fill: #ADBFDF;
+        
+        &:hover {
+          fill: #002CFB;
+        }
+      }
+    }
+  }
+}
